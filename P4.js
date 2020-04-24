@@ -1,6 +1,6 @@
 console.log("PANB -10 to 20")
 var count = -10;
-while (count < 20) {
+while (count < 21) {
     console.log(count);
     count++;
 }

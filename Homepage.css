@@ -1,0 +1,609 @@
+.container {
+    width: 1060px;
+}
+
+.header1 {
+    background: #404040;
+    height: 51px;
+}
+
+.bd-highlight {
+    color: lightgray;
+}
+
+.headerSpan1 {
+    font-size: 18px;
+}
+
+.headerSpan2 {
+    font-size: 14px;
+}
+
+#icons1 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+}
+
+#icons1:hover {
+    color: palevioletred;
+}
+
+.bg-white {
+    width: 1080px;
+    height: 94px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.navbarBrandSpan {
+    font: 24pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #558000;
+}
+
+#navLink1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1.0s;
+    outline: none;
+    font-size: 14px;
+    margin: -68px 0 0 0;
+}
+
+#navItem1 {
+    height: 5px;
+    margin: 98px 0 0 0;
+}
+
+#navItem1:hover {
+    background: #558000;
+    transition: 1.0s;
+}
+
+.borderContainerNav {
+    border-top: 5px solid lightgray;
+}
+
+#firstCarouselPrevious {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 225px 0 0 50px;
+}
+
+#firstCarouselNext {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 225px 50px 0 0;
+}
+
+.firstCarousel {
+    height: 502px;
+    background-color: #404040;
+}
+
+#carouselFirstCard {
+    width: 418px;
+    margin: 150px 0 0 200px;
+}
+
+#bigIconsMainCard {
+    border: 0;
+    margin: 50px 0 0 0;
+}
+
+.bigIconsLinksCard {
+    font-size: 60px;
+    text-align: center;
+    color: gray;
+    border: 10px solid lightgray;
+    border-radius: 50%;
+    width: 45%;
+    margin: 0 0 0 70px;
+}
+
+.bigIconsLinksCard:hover {
+    background-color: #9ACD32;
+    color: white;
+    transition: 1.0s;
+}
+
+#underLinkCardH5 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#underLinkCardH5:hover {
+    color: #9ACD32;
+    transition: 1.0s;
+}
+
+#underLinkCardP1 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.hrStyle1 {
+    border: 0;
+    height: 7px;
+    width: 1000px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+}
+
+.inMiddleHrDiv {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.inMiddleHrDiv2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: lightgray;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.inMiddleHrButton {
+    background-color: #558000;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    font-weight: normal;
+}
+
+.hrStyle2 {
+    border: 0;
+    height: 7px;
+    width: 1000px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
+}
+
+.latestPropertiesTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.latestPropertiesBorder {
+    border-bottom: 7px solid #558000;
+    padding-top: 10px;
+    width: 280px;
+    margin: 0 0 0 375px;
+}
+
+.hrStyle3 {
+    border: 3px solid lightgray;
+    margin: 0 0 0 0;
+}
+
+.secondCarousel {
+    background-color: white;
+    height: 480px;
+    margin: 30px 0 0 0;
+}
+
+#seconCarouselPrevious {
+    background-color: #558000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -48px 0 0 960px;
+    opacity: 1;
+}
+
+#seconCarouselNext {
+    background-color: #558000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -48px 0 0 0;
+    opacity: 1;
+}
+
+#secondCarouselIMG {
+    border: 7px solid gray;
+}
+
+#secondCarouselCardH5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#secondCarouselCardParagraph {
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    padding: 5px;
+}
+
+#secondCarouselCardParagraph2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#secondCarouselCardMoney {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secondCarouselBTN {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: #558000;
+    border: 0;
+    margin: 0 0 0 67px;
+}
+
+.fromTheBlogTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.fromTheBlogBorder {
+    border-bottom: 7px solid #558000;
+    padding-top: 10px;
+    width: 230px;
+    margin: 0 0 0 400px;
+}
+
+.hrStyle3 {
+    border: 3px solid lightgray;
+    margin: 0 0 0 0;
+}
+
+#fromTheBlogCard {
+    margin: 40px 0 0 0;
+    height: 177px;
+    border: 0;
+}
+
+#fromTheBlogIMG {
+    border: 7px solid gray;
+    border-radius: 0;
+}
+
+#fromTheBlogH5 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin: -10px 0 0 0;
+}
+
+.fa-tags {
+    color: gray;
+}
+
+.fromTheBlogLink {
+    color: #558000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+#fromTheBlogParagraph {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    padding-bottom: 20px;
+}
+
+.fromTheBlogLink2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #558000;
+}
+
+.faqTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.faqBorder {
+    border-bottom: 7px solid #558000;
+    padding-top: 10px;
+    width: 100px;
+    margin: 0 0 0 200px;
+}
+
+.faqAccordionAllInOne {
+    margin: 20px 0 0 0;
+}
+
+#faqBorder {
+    border: 0;
+}
+
+#faqButton {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 0;
+}
+
+.fa-question-circle {
+    font-size: 20px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    margin: 1px 0 0 0;
+}
+
+#faqButton:hover {
+    color: #558000;
+    text-decoration: none;
+}
+
+#faqButton:focus {
+    color: #558000;
+    text-decoration: none;
+}
+
+#faqLargeText {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.testimonialsBorder {
+    border-bottom: 7px solid #558000;
+    padding-top: 10px;
+    width: 200px;
+    margin: 0 0 0 150px;
+}
+
+.ourPartnersBorder {
+    border-bottom: 7px solid #558000;
+    padding-top: 10px;
+    width: 210px;
+    margin: 0 0 0 410px;
+}
+
+.testimonials {
+    margin: 30px 0 0 0;
+}
+
+.testimonialIMG {
+    border: 10px solid gray;
+    border-radius: 50%;
+}
+
+.testimonialParagraphBackground {
+    background-color: lightgray;
+    height: 120px;
+    width: 450px;
+    margin: 0 0 0 50px;
+}
+
+.testimonialParagraph {
+    margin: -135px 0 0 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+blockquote {
+    margin: 20px 0 0 320px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #558000;
+}
+
+.fa-quote-left {
+    margin: 0 5px 0 0;
+    font-size: 20px;
+    color: #404040;
+}
+
+.ourPartnerTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+
+.thirdCarousel {
+    height: 142px;
+    background-color: white;
+}
+
+#ourPartnersFlexRow {
+    margin: 30px 0 0 0;
+}
+
+.thirdCarouselA {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    padding: 20px;
+}
+
+.thirdCarouselA:hover {
+    color: black;
+    text-decoration: none;
+    transition: 1.0s;
+}
+
+#thisrdCarouselFlexLink1 {
+    margin: 20px 0 0 0;
+    border: 5px solid #E8E8E8;
+}
+
+#thisrdCarouselFlexLink2 {
+    margin: 20px 0 0 146px;
+    border: 5px solid #E8E8E8;
+}
+
+#thisrdCarouselFlexLink3 {
+    margin: 20px 0 0 146px;
+    border: 5px solid #E8E8E8;
+}
+
+#thisrdCarouselFlexLink4 {
+    margin: 20px 0 0 146px;
+    border: 5px solid #E8E8E8;
+}
+
+#thirdCarouselPrevious {
+    margin: -18px 0 0 965px;
+    background-color: #558000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#thirdCarouselNext {
+    margin: -18px 0 0 0;
+    background-color: #558000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.body2 {
+    background: #404040;
+    margin: 70px 0 0 0;
+    border-top: 5px solid lightgray;
+}
+
+.lastLink {
+    color: lightgray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.lastLink:hover {
+    text-decoration: none;
+    color: #558000;
+}
+
+.lastH1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastHR {
+    border: 1px dashed lightgray;
+}
+
+#featuredPropertiesCard4 {
+    width: 60px;
+    height: 60px;
+}
+
+#featuredPropertiesCard8 {
+    width: 190px;
+    height: 60px;
+}
+
+#smallCardBody {
+    height: 60px;
+}
+
+#featuredPropertiesGutters {
+    width: 250px;
+    height: 60px;
+}
+
+#featuredPropertiesMB3 {
+    width: 250px;
+    height: 60px;
+    border: 0;
+    background: #404040;
+    margin: 20px 0 0 0;
+}
+
+#smallCardH5 {
+    font-size: 12px;
+    font-weight: bold;
+    color: lightgray;
+    margin: -20px 0 0 0;
+}
+
+#smallCardParagraph {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin: 5px 10px 0 0;
+}
+
+#smallCardImg {
+    border: 5px solid lightgray;
+}
+
+#lastTwitter {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.budhaThemes {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.lastParagraph {
+    color: lightgray;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+}
+
+.lastBody {
+    height: 50px;
+    background: black;
+}
+
+.lastParagraph2 {
+    padding-top: 15px;
+    color: lightgray;
+    margin: 0 0 0 160px;
+    font-size: 14px;
+}
+
+#icons2 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+    margin: 20px 0 0 -10px;
+}
+
+#icons2:hover {
+    color: palevioletred;
+}

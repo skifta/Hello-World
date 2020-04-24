@@ -1,0 +1,65 @@
+1.Select -------
+var h1 = document.queryselector("h1");
+var tag = document.queryselector("#highlight") or (".bolded");
+var tag = document.getElementBy(Id or ClassName)("highlight");
+var tags = document.getElementByTagName("li");
+var tags = document.queryselectorAll("h1");
+
+2.Manipulate -------
+h1.style.color = "pink";
+tag.style.border = "10 px solid red";
+tag.style.fontsize = "70px";
+tag.style.background = "yellow";
+tag.style.marginTop = "200px";
+
+3.Interval -------
+var body = document.queryselector("body");
+var isBlue = false;
+
+setInterval(function() {
+    if (isBlue) {
+        body.style.background = "white";
+    } else {
+        body.style.background = "#3498db";
+    }
+    isBlue = !isBlue;
+}, 1000);
+
+4.Add and remove a class -------
+tag.classList.add("another-class");
+tags.classList.remove("another-class");
+
+5.Change the text -------
+h1.textcontent = "...";
+
+6.Change the HTML on text, like <strog> -------
+tag.innerHTML
+
+7.Attributes -------
+link.getAttribute("href");
+link.setAttribute("href", "www.dogs.com");
+img.setAttribute("src", "corgi.png");
+
+8.Events =======
+
+1.Click -------
+var button = document.querySelector("button");
+
+button.addEventListener("click", function() {
+    console.log("SOMEONE CLICKED THE BUTTON!");
+});
+
+1.1. -------
+var button = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+button.addEventListener("click", function() {
+    paragraph.textcontent = "Someone Clicked the Button!";
+});
+
+1.2 Seperate lis -------
+for (var i = 0; i < lis.length; i++) {
+    lis[i].addEventListener("click", function() {
+        this.style.color = "pink";
+    });
+}

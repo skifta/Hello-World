@@ -1,0 +1,16 @@
+body {
+    background: url(https://ewscripps.brightspotcdn.com/dims4/default/79ac87d/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F66%2Ffb%2Fbb8fd7b643ad8e0bf491d181429d%2Fmichael-ryno-sunflower-3.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    background: darkgoldenrod;
+}
+
+h3 {
+    border: 2px solid darkgoldenrod;
+}

@@ -1,0 +1,286 @@
+.container {
+    width: 1060px;
+}
+
+.header1 {
+    background: #404040;
+    height: 51px;
+}
+
+.bd-highlight {
+    color: lightgray;
+}
+
+.headerSpan1 {
+    font-size: 18px;
+}
+
+.headerSpan2 {
+    font-size: 14px;
+}
+
+#icons1 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+}
+
+#icons1:hover {
+    color: palevioletred;
+}
+
+.bg-white {
+    width: 1080px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.navbarBrandSpan {
+    font: 24pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #558000;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1.0s;
+    outline: none;
+    font-size: 14px;
+    margin: -68px 0 0 0;
+}
+
+.dots {
+    width: 72.25px;
+    height: 94px;
+}
+
+.nav-item {
+    height: 5px;
+    margin: 98px 0 0 0;
+}
+
+.nav-item:hover {
+    background: #558000;
+    transition: 1.0s;
+}
+
+.menu {
+    height: 94px;
+}
+
+.breadCrumb {
+    height: 121px;
+    background: #E8E8E8;
+    border-top: 5px solid lightgray;
+    border-bottom: 5px solid lightgray;
+}
+
+#breadCrumbContainer {
+    width: 1200px;
+}
+
+.flexRow1 {
+    margin: 22px 0 0 0;
+}
+
+.home {
+    margin: 12px 0 0 0;
+}
+
+.home1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #558000;
+    font-weight: bold;
+    margin: 0 0 0 35px;
+}
+
+.home1:hover {
+    text-decoration: none;
+    color: gray;
+    transition: 1.0s;
+}
+
+.aboutUs {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+.contact1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 0 150px;
+}
+
+.contact2 {
+    font-size: 20px;
+    color: gray;
+    margin: 0 0 0 155px;
+}
+
+.fa-phone {
+    font-size: 47px;
+    margin: 20px 0 0 460px;
+}
+
+hr {
+    border-top: 5px solid #E8E8E8;
+    margin: 50px 0 0 0;
+}
+
+.body2 {
+    background: #404040;
+    margin: 0 0 0 0;
+}
+
+.lastLink {
+    color: lightgray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.lastLink:hover {
+    text-decoration: none;
+    color: #558000;
+}
+
+.lastH1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastHR {
+    border: 1px dashed lightgray;
+}
+
+.lastImages {
+    border: 5px solid lightgray;
+}
+
+#lastFlexRow {
+    margin: 20px 0 0 0;
+}
+
+#lastFlexRow2 {
+    margin: 15px 0 0 0;
+}
+
+#lastFlexRow3 {
+    margin: 10px 0 0 0;
+}
+
+#lastFlexColumn {
+    margin: -7px 0 0 -10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+#lastTwitter {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.lastParagraph {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.lastBody {
+    height: 50px;
+    background: black;
+}
+
+.lastParagraph2 {
+    padding-top: 15px;
+    color: lightgray;
+    margin: 0 0 0 160px;
+    font-size: 14px;
+}
+
+#previousSpan {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: #558000;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+#previousArrowLink {
+    margin: -56px 0 0 990px;
+    width: fit-content;
+}
+
+#nextArrowLink {
+    margin: -56px 0 0 0;
+    width: fit-content;
+}
+
+#form-control1 {
+    background: #E8E8E8;
+}
+
+#form-control2 {
+    background: #E8E8E8;
+    margin: 36px 0 0 0;
+}
+
+.yourNameH1 {
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.textArea {
+    background: #E8E8E8;
+}
+
+#btnUnderMessage {
+    margin: 0 0 0 535px;
+    text-transform: uppercase;
+    width: 140px;
+    border: 0;
+    border-radius: 0;
+    background-color: #558000;
+}
+
+.contactDetails {
+    background: #E8E8E8;
+    width: 350px;
+    height: 333px;
+}
+
+.contactDetailsP {
+    color: darkslategray;
+    font-weight: bold;
+    margin: 15px 0 0 15px;
+}
+
+.contactDetailsP1 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 50px 0 0 15px;
+}
+
+.contactDetailsP2 {
+    color: darkslategray;
+    font-weight: bold;
+    margin: 20px 0 0 15px;
+}
+
+.contactDetailsP3 {
+    color: darkslategray;
+    font-weight: bold;
+    margin: 20px 0 0 15px;
+}

@@ -1,0 +1,9 @@
+p {
+    border: 2px solid purple;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    margin: 9.5% auto;
+    color: purple;
+    background: pink;
+}

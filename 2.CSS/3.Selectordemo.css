@@ -1,0 +1,15 @@
+* {
+    border: 1px solid lightpink;
+}
+
+a[href="http://www.google.com"] {
+    background: lightpink;
+}
+
+h4+ul {
+    border: 5px solid purple;
+}
+
+li a {
+    color: purple;
+}

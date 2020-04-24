@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    font-family: Trade Winds;
+}
+
+span {
+    font-size: 1.5em;
+}
+
+p {
+    text-decoration: underline;
+}

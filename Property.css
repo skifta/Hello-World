@@ -1,0 +1,485 @@
+.container {
+    width: 1060px;
+}
+
+.header1 {
+    background: #404040;
+    height: 51px;
+}
+
+.bd-highlight {
+    color: lightgray;
+}
+
+.headerSpan1 {
+    font-size: 18px;
+}
+
+.headerSpan2 {
+    font-size: 14px;
+}
+
+#icons1 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+}
+
+#icons1:hover {
+    color: palevioletred;
+}
+
+.bg-white {
+    width: 1080px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.navbarBrandSpan {
+    font: 24pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #558000;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1.0s;
+    outline: none;
+    font-size: 14px;
+    margin: -68px 0 0 0;
+}
+
+.dots {
+    width: 72.25px;
+    height: 94px;
+}
+
+.nav-item {
+    height: 5px;
+    margin: 98px 0 0 0;
+}
+
+.nav-item:hover {
+    background: #558000;
+    transition: 1.0s;
+}
+
+.menu {
+    height: 94px;
+}
+
+.breadCrumb {
+    height: 121px;
+    background: #E8E8E8;
+    border-top: 5px solid lightgray;
+    border-bottom: 5px solid lightgray;
+}
+
+#breadCrumbContainer {
+    width: 1200px;
+}
+
+.flexRow1 {
+    margin: 22px 0 0 0;
+}
+
+.home {
+    margin: 12px 0 0 0;
+}
+
+.home1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #558000;
+    font-weight: bold;
+    margin: 0 0 0 35px;
+}
+
+.home1:hover {
+    text-decoration: none;
+    color: gray;
+    transition: 1.0s;
+}
+
+.aboutUs {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+.contact1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 0 150px;
+}
+
+.contact2 {
+    font-size: 20px;
+    color: gray;
+    margin: 0 0 0 155px;
+}
+
+.fa-phone {
+    font-size: 47px;
+    margin: 20px 0 0 460px;
+}
+
+#containerCradRow {
+    margin: 50px 0 0 0;
+}
+
+#cardDeck2 {
+    padding-top: 20px;
+}
+
+#cardImage {
+    border: 7px solid gray;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+#cardParagraph1 {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.bedIcon {
+    font-size: 14px;
+}
+
+.showerIcon {
+    margin: 0 0 0 30px;
+    font-size: 14px;
+}
+
+.carIcon {
+    margin: 0 0 0 30px;
+    font-size: 14px;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+.btn-success {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 54px;
+    background: #558000;
+    border-radius: 0;
+    border: 0;
+}
+
+.textMuted2 {
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+#containerCradRow2 {
+    margin: 50px 0 0 0;
+}
+
+#borderCard {
+    border: 0;
+    border-radius: 0;
+    background: #E8E8E8;
+}
+
+.btnFilter {
+    font-size: 18px;
+    font-weight: bold;
+    color: #558000;
+    text-transform: uppercase;
+}
+
+.btnFilter:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.fa-filter {
+    padding-left: 145px;
+}
+
+.searchParagraph {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 35px 0 0 0;
+}
+
+.searchParagraph2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+}
+
+.fa-arrow-alt-circle-right {
+    color: #558000;
+}
+
+.mr-sm-2 {
+    background: #E8E8E8;
+    width: 260px;
+    height: 68.5px;
+    border: 0;
+    border-radius: 0;
+    margin: 10px 0 0 0;
+}
+
+#btnSearch {
+    width: 61px;
+    margin: -96px 0 0 261px;
+    height: 68.5px;
+    border-radius: 0;
+    color: white;
+    background: #558000;
+}
+
+.fa-search {
+    font-size: 22pt;
+}
+
+.rangeSlider {
+    margin: 15px 0 0 0;
+    width: 323.33px;
+    height: 40px;
+}
+
+#slider {
+    width: 100%;
+    background: #558000;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    height: 15px;
+}
+
+#slider:hover {
+    opacity: 1;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: white;
+    cursor: pointer;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+.sliderPrice {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.btnPriceFliter {
+    font-size: 14px;
+    font-weight: bold;
+    background: #558000;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    height: 30px;
+    width: 70px;
+    margin: 0 0 0 42px;
+}
+
+.searchParagraph3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+.btnFilterByType {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-left: 0;
+    margin: 0 10px 0 0;
+    padding-bottom: 0;
+}
+
+.btnFilterByType:hover {
+    color: #558000;
+    text-decoration: none;
+}
+
+#cardFilterByType {
+    border: 0;
+}
+
+.spanFilterByType {
+    margin: 0 0 0 174px;
+}
+
+.spanFilterByType1 {
+    margin: 0 0 0 232px;
+}
+
+.spanFilterByType2 {
+    margin: 0 0 0 156px;
+}
+
+.spanFilterByType3 {
+    margin: 0 0 0 207px;
+}
+
+.spanFilterByType4 {
+    margin: 0 0 0 228px;
+}
+
+.spanFilterByType5 {
+    margin: 0 0 0 105px;
+}
+
+.filterBTRPP {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+#colCard4 {
+    width: 339px;
+    height: 80px;
+}
+
+#colCard8 {
+    height: 80px;
+    width: 80px;
+}
+
+.cardParagraph {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    margin: -20px 0 0 0;
+}
+
+.cardPriceParagraph {
+    font-size: 14px;
+    font-weight: bold;
+    color: #558000;
+    margin: 5px 0 0 0;
+}
+
+.box {
+    color: yellow;
+    margin: 10px 0 0 0;
+}
+
+.smallCardImages {
+    border: 5px solid gray;
+}
+
+#smallCard {
+    border: 0;
+    margin: 20px 0 0 0;
+}
+
+.btnRow {
+    margin: 50px 0 0 0;
+    border-radius: 0;
+    background: #E8E8E8;
+    color: black;
+    border: 1px solid lightgray;
+}
+
+.btnRow:hover {
+    background: #558000;
+    color: white;
+    transition: 1.0s;
+}
+
+.body2 {
+    background: #404040;
+}
+
+.lastLink {
+    color: lightgray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.lastLink:hover {
+    text-decoration: none;
+    color: #558000;
+}
+
+.lastH1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastHR {
+    border: 1px dashed lightgray;
+}
+
+.lastImages {
+    border: 5px solid lightgray;
+}
+
+#lastFlexRow {
+    margin: 20px 0 0 0;
+}
+
+#lastFlexRow2 {
+    margin: 15px 0 0 0;
+}
+
+#lastFlexRow3 {
+    margin: 10px 0 0 0;
+}
+
+#lastFlexColumn {
+    margin: -7px 0 0 -10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+#lastTwitter {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.lastParagraph {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.lastBody {
+    height: 50px;
+    background: black;
+}
+
+.lastParagraph2 {
+    padding-top: 15px;
+    color: lightgray;
+    margin: 0 0 0 160px;
+    font-size: 14px;
+}
+
+.preLastHR {
+    border: 5px solid lightgray;
+    padding-bottom: 0;
+    margin: 50px 0 0 0;
+}

@@ -1,0 +1,553 @@
+.container {
+    width: 1060px;
+}
+
+.header1 {
+    background: #404040;
+    height: 51px;
+}
+
+.bd-highlight {
+    color: lightgray;
+}
+
+.headerSpan1 {
+    font-size: 18px;
+}
+
+.headerSpan2 {
+    font-size: 14px;
+}
+
+#icons1 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+}
+
+#icons1:hover {
+    color: palevioletred;
+}
+
+.bg-white {
+    width: 1080px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.navbarBrandSpan {
+    font: 24pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #558000;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1.0s;
+    outline: none;
+    font-size: 14px;
+    margin: -68px 0 0 0;
+}
+
+.dots {
+    width: 72.25px;
+    height: 94px;
+}
+
+.nav-item {
+    height: 5px;
+    margin: 98px 0 0 0;
+}
+
+.nav-item:hover {
+    background: #558000;
+    transition: 1.0s;
+}
+
+.menu {
+    height: 94px;
+}
+
+.breadCrumb {
+    height: 121px;
+    background: #E8E8E8;
+    border-top: 5px solid lightgray;
+    border-bottom: 5px solid lightgray;
+}
+
+#breadCrumbContainer {
+    width: 1200px;
+}
+
+.flexRow1 {
+    margin: 22px 0 0 0;
+}
+
+.home {
+    margin: 12px 0 0 0;
+}
+
+.home1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #558000;
+    font-weight: bold;
+    margin: 0 0 0 35px;
+}
+
+.home1:hover {
+    text-decoration: none;
+    color: gray;
+    transition: 1.0s;
+}
+
+.aboutUs {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+.contact1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 0 150px;
+}
+
+.contact2 {
+    font-size: 20px;
+    color: gray;
+    margin: 0 0 0 155px;
+}
+
+.fa-phone {
+    font-size: 47px;
+    margin: 20px 0 0 460px;
+}
+
+.body1 {
+    width: 1060px;
+    height: 1475px;
+    background: white;
+    margin: 50px 0 0 0;
+}
+
+#carouselExampleIndicators {
+    height: 300px;
+}
+
+.carousel-indicators {
+    margin: 0 0 10px 900px;
+}
+
+.carousel-caption {
+    margin: 0 0 70px 350px;
+}
+
+.carouselH5 {
+    font-size: 20px;
+    background: #558000;
+    color: white;
+    width: 450px;
+    height: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.carouselP {
+    font-size: 20pt;
+    background: white;
+    color: #303030;
+    width: 350px;
+    height: 49px;
+    margin: -7px 0 0 100px;
+}
+
+.row1 {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.ourSkills {
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ourSkillsBorder2 {
+    border-bottom: 7px solid #558000;
+    margin: 0 0 0 165px;
+    width: 170px;
+    padding-bottom: -10px;
+}
+
+.ourSkillsBorder1 {
+    border-bottom: 7px solid #558000;
+    margin: 0 0 0 125px;
+    width: 250px;
+    padding-bottom: -10px;
+}
+
+hr {
+    border-top: 5px solid #E8E8E8;
+    margin: 0 0 25px 0;
+}
+
+.cardGroup {
+    font-size: 14pt;
+    font-weight: normal;
+    text-transform: none;
+    text-align: start;
+    margin: 0 0 0 5px;
+    border: 0;
+    height: 70px;
+}
+
+.btnLink1 {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 0 0 0 -230px;
+}
+
+.btnLink1:hover {
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btnLink1:focus {
+    text-decoration: none;
+}
+
+#headingOne {
+    background: #E8E8E8;
+    height: 69px;
+}
+
+#headingOne:hover {
+    background: #558000;
+    transition: 1s;
+}
+
+.btnLink2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 0 0 0 -287px;
+}
+
+.btnLink2:hover {
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btnLink2:focus {
+    text-decoration: none;
+}
+
+.btnLink3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin: 0 0 0 -127px;
+}
+
+.btnLink3:hover {
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btnLink3:focus {
+    text-decoration: none;
+}
+
+.progress {
+    height: 69px;
+}
+
+.progress-bar-striped {
+    background: #558000;
+}
+
+.row2 {
+    width: 520px;
+    height: 50px;
+}
+
+.progressP {
+    font-size: 16pt;
+    text-transform: none;
+    margin: 10px 390px 0 0;
+}
+
+.progressP1 {
+    font-size: 16pt;
+    text-transform: none;
+    margin: 10px 310px 0 0;
+    width: 45%;
+}
+
+.progressP2 {
+    font-size: 16pt;
+    text-transform: none;
+    margin: 10px 370px 0 0;
+    width: 33%;
+}
+
+.progressP3 {
+    font-size: 16pt;
+    text-transform: none;
+    margin: 10px 370px 0 0;
+}
+
+.progressP4 {
+    font-size: 16pt;
+    text-transform: none;
+    margin: 10px 330px 0 0;
+}
+
+.percentage {
+    font-size: 16pt;
+    margin: 20px 0 0 5px;
+    font-weight: normal;
+}
+
+.percentage2 {
+    font-size: 16pt;
+    margin: 20px 0 0 105px;
+    font-weight: normal;
+}
+
+.percentage3 {
+    font-size: 16pt;
+    margin: 20px 0 0 55px;
+    font-weight: normal;
+}
+
+.percentage4 {
+    font-size: 16pt;
+    margin: 20px 0 0 155px;
+    font-weight: normal;
+}
+
+.percentage5 {
+    font-size: 16pt;
+    margin: 20px 0 0 205px;
+    font-weight: normal;
+}
+
+.ourServices {
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.ourServicesBorder {
+    border-bottom: 7px solid #558000;
+    width: 220px;
+    margin: 0 0 0 417px;
+}
+
+.icons2 {
+    font-size: 30px;
+}
+
+#icons2 {
+    color: gray;
+    font-size: 14pt;
+    transition: all 0.5s;
+}
+
+#icons2:hover {
+    color: palevioletred;
+}
+
+.flexRow3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: -15px 0 0 0;
+}
+
+.flexRow4 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: -10px 0 0 0;
+}
+
+.nav2 {
+    justify-content: space-around;
+}
+
+.listItemLink {
+    z-index: 1;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14pt;
+    padding: 10px 5px;
+    margin: 0 0 0 40px;
+}
+
+.listItemLink:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.listItem {
+    display: flex;
+    width: 200px;
+    border: 7px solid #E8E8E8;
+}
+
+.unorderdList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.body2 {
+    background: #404040;
+    margin: -25px 0 0 0;
+}
+
+.lastLink {
+    color: lightgray;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.lastLink:hover {
+    text-decoration: none;
+    color: #558000;
+}
+
+.lastH1 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastHR {
+    border: 1px dashed lightgray;
+}
+
+#featuredPropertiesCard4 {
+    width: 60px;
+    height: 60px;
+}
+
+#featuredPropertiesCard8 {
+    width: 190px;
+    height: 60px;
+}
+
+#smallCardBody {
+    height: 60px;
+}
+
+#featuredPropertiesGutters {
+    width: 250px;
+    height: 60px;
+}
+
+#featuredPropertiesMB3 {
+    width: 250px;
+    height: 60px;
+    border: 0;
+    background: #404040;
+    margin: 20px 0 0 0;
+}
+
+#smallCardH5 {
+    font-size: 12px;
+    font-weight: bold;
+    color: lightgray;
+    margin: -20px 0 0 0;
+}
+
+#smallCardParagraph {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin: 5px 10px 0 0;
+}
+
+#smallCardImg {
+    border: 5px solid lightgray;
+}
+
+#lastTwitter {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.budhaThemes {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.lastParagraph {
+    color: lightgray;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+}
+
+#icons2 {
+    color: lightgray;
+    margin: 20px 0 0 0;
+}
+
+.lastBody {
+    height: 50px;
+    background: black;
+}
+
+.lastParagraph2 {
+    padding-top: 15px;
+    color: lightgray;
+    margin: 0 0 0 160px;
+    font-size: 14px;
+}
+
+#previousSpan {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: #558000;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+#previousArrowLink {
+    margin: -56px 0 0 990px;
+    width: fit-content;
+    opacity: 1;
+}
+
+#nextArrowLink {
+    margin: -56px 0 0 0;
+    width: fit-content;
+    opacity: 1;
+}

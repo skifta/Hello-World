@@ -1,0 +1,382 @@
+.skifta {
+    background: #669999;
+    height: 56px;
+    border-bottom: 7px solid steelblue;
+}
+
+span {
+    font-weight: bold;
+    color: #0a1e29;
+}
+
+.bg-white {
+    margin-bottom: 30px;
+    border-bottom: 7px solid steelblue;
+}
+
+.arrow {
+    margin-top: 56px;
+    height: 500px;
+    background: gray;
+    border-top: 7px solid steelblue;
+}
+
+.card {
+    margin-left: 127px;
+    margin-top: 61px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 100%;
+    transition: all 1.0s;
+    outline: none;
+}
+
+.hrcl {
+    border: 0;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    width: 1110px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ceri {
+    text-transform: uppercase;
+}
+
+.ceri {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rope {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+
+.sika {
+    font-size: 90px;
+    text-align: center;
+    color: gray;
+    border: 7px solid #0a1e29;
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 20%;
+    background: lightgreen;
+}
+
+.sika:hover {
+    color: lightblue;
+    transition: 1.0s;
+}
+
+h5 {
+    text-align: center;
+    font-size: 35px;
+    color: #0a1e29;
+}
+
+.card-img-top {
+    border: 5px solid gray;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.blade {
+    background: white;
+    height: 600px;
+}
+
+.no-gutters {
+    margin-right: 50px;
+}
+
+.px-0 {
+    padding-top: 40px;
+}
+
+.pink {
+    padding-top: 50px;
+}
+
+.trap {
+    margin-left: 150px;
+    background: lightgray;
+    border-radius: 0 85px 85px 0;
+    position: relative;
+}
+
+.trap2 {
+    margin-left: 150px;
+    margin-top: 70px;
+    background: lightgray;
+    border-radius: 0 85px 85px 0;
+    position: relative;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.testimonial .pic {
+    width: 130px;
+    height: 130px;
+    line-height: 200px;
+    border-radius: 50%;
+    border: 14px solid lightgray;
+    position: absolute;
+    top: -15px;
+    left: -100px;
+    overflow: hidden;
+}
+
+.kimik {
+    border: 0;
+    margin-top: 50px;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, lightblue, #f0f0f0);
+    width: 1110px;
+}
+
+.fa-linkedin {
+    color: #0a1e29;
+}
+
+.fa-basketball-ball {
+    color: #0a1e29;
+}
+
+.fa-twitter {
+    color: #0a1e29;
+}
+
+.fa-google-plus {
+    color: #0a1e29;
+}
+
+.fa-facebook {
+    color: #0a1e29;
+}
+
+.d-none {
+    font-weight: bold;
+    font-size: 22px;
+    color: #0a1e29;
+    right: 50%;
+    text-align: start;
+    text-shadow: 0px 4px 3px lightslategray;
+}
+
+.reci {
+    font-size: 35px;
+    color: #0a1e29;
+    text-align: start;
+}
+
+.sdfs {
+    margin-top: 30px;
+    color: white;
+}
+
+#scalp {
+    text-align: start;
+}
+
+#quma {
+    color: gray;
+    font-weight: bold;
+}
+
+#quma:hover {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+#cliper {
+    border: 5px solid gray;
+}
+
+#info {
+    text-transform: uppercase;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+.aaa {
+    z-index: 1;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 5px;
+    border: 7px solid lightgray;
+}
+
+.aaa:hover {
+    text-decoration: none;
+    color: #0a1e29;
+}
+
+.lis {
+    display: flex;
+}
+
+.uls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hrfin {
+    border: 5px solid darkslategray;
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.bord {
+    border-top: 1px dashed lightgray;
+}
+
+.lasta {
+    color: lightgray;
+    font-weight: 500;
+}
+
+.lasta:hover {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.hlast {
+    color: white;
+    margin: 8px 0 0 0;
+}
+
+.hlast2 {
+    color: white;
+}
+
+.hlast3 {
+    color: lightgray;
+    margin: 8px 0 0 0;
+}
+
+.backg {
+    background: #181818;
+    margin-top: 10px;
+}
+
+.pic1 {
+    margin: 0 0 0 0;
+    border: 5px solid gray;
+}
+
+.pic2 {
+    margin: 0 0 0 8px;
+    border: 5px solid gray;
+}
+
+.pic3 {
+    margin: 10px 0 0 8px;
+    border: 5px solid gray;
+}
+
+.parag1 {
+    margin: 20px 0 0 0;
+    color: lightgray;
+    font-size: 10px;
+}
+
+.parag2 {
+    margin: 0 0 0 0;
+    color: lightgray;
+    font-size: 10px;
+}
+
+.parag3 {
+    margin: 10px 0 0 0;
+    color: lightgray;
+    font-size: 10px;
+}
+
+.parag4 {
+    color: lightgray;
+    margin: 20px 0 0 0;
+}
+
+.spa2 {
+    color: lightgray;
+}
+
+.parag5 {
+    color: lightgray;
+    margin: 22px 0 0 0;
+}
+
+#row {
+    color: lightgray;
+}
+
+.parag6 {
+    padding-top: 12px;
+}
+
+.last {
+    background: black;
+    height: 50px;
+}
+
+.carousel-control-prev {
+    margin: -50px 0 0 1150px;
+    width: fit-content;
+}
+
+.carousel-control-next {
+    margin: -50px 70px 0 0;
+    width: fit-content;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: #558000;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
