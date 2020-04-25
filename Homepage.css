@@ -9,6 +9,8 @@
 
 .bd-highlight {
     color: lightgray;
+    width: 50%;
+    margin: 0 0 0 40px;
 }
 
 .headerSpan1 {
@@ -17,6 +19,10 @@
 
 .headerSpan2 {
     font-size: 14px;
+}
+
+#icons1Container {
+    width: 1130px;
 }
 
 #icons1 {
