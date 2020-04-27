@@ -47,6 +47,10 @@
     margin: 0 10px 0 0;
 }
 
+#navbarUl {
+    margin: 0 0 0 505px;
+}
+
 .navbarBrandSpan {
     font: 24pt;
     text-transform: uppercase;
@@ -105,9 +109,8 @@
     margin: 150px 0 0 200px;
 }
 
-#bigIconsMainCard {
-    border: 0;
-    margin: 50px 0 0 0;
+#largeIconsRow {
+    margin: 70px 0 0 0;
 }
 
 .bigIconsLinksCard {
@@ -116,8 +119,11 @@
     color: gray;
     border: 10px solid lightgray;
     border-radius: 50%;
-    width: 45%;
-    margin: 0 0 0 70px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 0 0 50px;
 }
 
 .bigIconsLinksCard:hover {
@@ -131,6 +137,7 @@
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 35px 0 0 0;
 }
 
 #underLinkCardH5:hover {
@@ -142,32 +149,30 @@
     font-size: 14px;
     font-weight: normal;
     text-align: center;
+    margin: 10px 0 0 0;
 }
 
-.hrStyle1 {
-    border: 0;
-    height: 7px;
-    width: 1000px;
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
-    background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
-    background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
-}
-
-.inMiddleHrDiv {
+.inMiddleHrDiv h4 {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    border-top: 7px solid #E8E8E8;
+    margin: 15px 0 0 200px;
+    padding-top: 20px;
+    width: 70%;
 }
 
-.inMiddleHrDiv2 {
+.inMiddleHrDiv p {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     color: lightgray;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 200px;
+    border-bottom: 7px solid #E8E8E8;
+    padding-bottom: 20px;
+    width: 70%;
 }
 
 .inMiddleHrButton {
@@ -175,18 +180,8 @@
     color: white;
     text-transform: uppercase;
     font-size: 18px;
-    border: 0;
+    border: 2px solid #558000;
     font-weight: normal;
-}
-
-.hrStyle2 {
-    border: 0;
-    height: 7px;
-    width: 1000px;
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
-    background-image: -moz-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
-    background-image: -ms-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #DCDCDC, #f0f0f0);
 }
 
 .latestPropertiesTitle {
@@ -421,7 +416,7 @@
     font-weight: normal;
 }
 
-blockquote {
+.testimonialLittleParagraph {
     margin: 20px 0 0 320px;
     font-size: 12px;
     font-weight: bold;
@@ -502,7 +497,7 @@ blockquote {
     opacity: 1;
 }
 
-.body2 {
+.footer {
     background: #404040;
     margin: 70px 0 0 0;
     border-top: 5px solid lightgray;

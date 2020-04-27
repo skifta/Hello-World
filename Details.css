@@ -7,7 +7,7 @@
     height: 51px;
 }
 
-.bd-highlight {
+#firstContact {
     color: lightgray;
 }
 
@@ -388,10 +388,8 @@ iframe {
     opacity: 1;
 }
 
-.body2 {
+.footer {
     background: #404040;
-    margin: 70px 0 0 0;
-    border-top: 5px solid lightgray;
 }
 
 .lastLink {
@@ -413,6 +411,7 @@ iframe {
 
 .lastHR {
     border: 1px dashed lightgray;
+    margin: 20px 0 0 0;
 }
 
 #featuredPropertiesCard4 {
@@ -474,6 +473,11 @@ iframe {
 .lastParagraph {
     color: lightgray;
     font-size: 14px;
+    margin: 20px 0 0 0;
+}
+
+#icons2 {
+    color: lightgray;
     margin: 20px 0 0 0;
 }
 
