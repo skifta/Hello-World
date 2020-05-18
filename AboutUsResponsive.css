@@ -1,0 +1,1601 @@
+@media (min-width: 992px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 18px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 20px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+    }
+    nav {
+        height: 103px;
+        border-bottom: 5px solid lightgray;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav ul li {
+        height: 103px;
+        margin: 4px 0 0 0;
+    }
+    nav ul li:hover {
+        background-color: #E8E8E8;
+        border-bottom: 5px solid #558000;
+        transition: 0.5s;
+    }
+    nav ul li a {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 30px 0 0 0;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 47px;
+        margin: 30px 190px 0 0;
+    }
+    .contact1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: -57px 0 0 0;
+    }
+    .contact2 {
+        font-size: 20px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #carouselExampleIndicators {
+        height: 300px;
+        margin: 40px;
+        background-color: lightgray;
+    }
+    #carouselExampleIndicators h5 {
+        font-size: 20px;
+        background: #558000;
+        color: white;
+        width: 450px;
+        height: fit-content;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        margin: 100px 0 0 470px;
+    }
+    #carouselExampleIndicators p {
+        font-size: 26px;
+        background: white;
+        color: #303030;
+        width: 350px;
+        height: fit-content;
+        margin: 0 0 0 570px;
+        text-align: end;
+        padding-right: 10px;
+    }
+    #carouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    #carouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    .whyChooseUsRow p {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 40%;
+        margin: 0 0 0 160px;
+    }
+    .whyChooseUsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourSkillsRow p {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 40%;
+        margin: 0 0 0 160px;
+    }
+    .ourSkillsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .accordion {
+        margin: 20px 0 0 0;
+    }
+    .accordion button {
+        font-size: 16px;
+        font-weight: normal;
+        color: black;
+    }
+    .accordion button:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .progress {
+        height: 64px;
+    }
+    #progress1 {
+        margin: 20px 0 0 0;
+    }
+    #progress2 {
+        margin: 5.3px 0 0 0;
+    }
+    .progress-bar {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+    }
+    .ourServicesDiv {
+        margin: 50px 0 0 0;
+    }
+    .ourServicesDiv p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-bottom: 5px solid #558000;
+        width: 18%;
+        text-align: center;
+        margin: 0 0 0 450px;
+    }
+    .ourServicesDiv hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourServicesMainRow {
+        margin: 30px 0 0 0;
+    }
+    .ourServeicesIcons {
+        font-size: 35px;
+    }
+    .ourServicesMainCol {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainRow h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .ourServicesRowParagraph {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .ourPartnersParagraph {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 20%;
+        margin: 50px 0 0 450px;
+    }
+    .ourPartnersDiv hr {
+        border: 2px solid gray;
+        margin: 0 0 0 0;
+    }
+    #thirdCarouselRow {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    #carouselExampleControls3 {
+        height: 150px;
+    }
+    #thirdCarouselItem {
+        height: 100px;
+    }
+    #thirdCarouselRow a {
+        font-size: 16px;
+        font-weight: bold;
+        color: gray;
+        border: 5px solid lightgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #thirdCarouselRow a:hover {
+        color: black;
+        text-decoration: none;
+        transition: 1.0s;
+    }
+    #thirdCarouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 0 0 50px;
+    }
+    #thirdCarouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 50px 0 0;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 42px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 16px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 18px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 47px;
+        margin: 30px 190px 0 0;
+    }
+    .contact1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: -57px 0 0 0;
+    }
+    .contact2 {
+        font-size: 20px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #carouselExampleIndicators {
+        height: 300px;
+        margin: 40px;
+        background-color: lightgray;
+    }
+    #carouselExampleIndicators h5 {
+        font-size: 18px;
+        background: #558000;
+        color: white;
+        width: 450px;
+        height: fit-content;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        margin: 100px 0 0 100px;
+    }
+    #carouselExampleIndicators p {
+        font-size: 22px;
+        background: white;
+        color: #303030;
+        width: 350px;
+        height: fit-content;
+        margin: 0 0 0 200px;
+        text-align: end;
+        padding-right: 10px;
+    }
+    #carouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    #carouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    .whyChooseUsRow p {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 50%;
+        margin: 0 0 0 90px;
+    }
+    .whyChooseUsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourSkillsRow p {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 40%;
+        margin: 0 0 0 100px;
+    }
+    .ourSkillsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .accordion {
+        margin: 20px 0 0 0;
+    }
+    .accordion button {
+        font-size: 16px;
+        font-weight: normal;
+        color: black;
+    }
+    .accordion button:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .progress {
+        height: 64px;
+    }
+    #progress1 {
+        margin: 20px 0 0 0;
+    }
+    #progress2 {
+        margin: 5.3px 0 0 0;
+    }
+    .progress-bar {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+    }
+    .ourServicesDiv {
+        margin: 50px 0 0 0;
+    }
+    .ourServicesDiv p {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-bottom: 5px solid #558000;
+        width: 22%;
+        text-align: center;
+        margin: 0 0 0 290px;
+    }
+    .ourServicesDiv hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourServicesMainRow {
+        margin: 30px 0 0 0;
+    }
+    .ourServeicesIcons {
+        font-size: 35px;
+    }
+    .ourServicesMainCol {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainCol2 {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainRow h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .ourServicesRowParagraph {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .ourPartnersParagraph {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 5px solid #558000;
+        width: 25%;
+        margin: 50px 0 0 270px;
+    }
+    .ourPartnersDiv hr {
+        border: 2px solid gray;
+        margin: 0 0 0 0;
+    }
+    #thirdCarouselRow {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    #carouselExampleControls3 {
+        height: 150px;
+    }
+    #thirdCarouselItem {
+        height: 100px;
+    }
+    #thirdCarouselRow a {
+        font-size: 16px;
+        font-weight: bold;
+        color: gray;
+        border: 5px solid lightgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #thirdCarouselRow a:hover {
+        color: black;
+        text-decoration: none;
+        transition: 1.0s;
+    }
+    #thirdCarouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 0 0 50px;
+    }
+    #thirdCarouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 50px 0 0;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 42px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .header {
+        background-color: #404040;
+        height: 40px;
+    }
+    .firstContactnumberEmail {
+        font-size: 12px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 16px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+        width: 50%;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+        width: 50%;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 40px;
+        margin: 30px 170px 0 0;
+    }
+    .contact1 {
+        font-size: 22px;
+        font-weight: bold;
+        margin: -50px 0 0 0;
+    }
+    .contact2 {
+        font-size: 18px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #carouselExampleIndicators {
+        height: 300px;
+        margin: 40px;
+        background-color: lightgray;
+    }
+    #carouselExampleIndicators h5 {
+        font-size: 16px;
+        background: #558000;
+        color: white;
+        width: 300px;
+        height: fit-content;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: end;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        margin: 180px 0 0 60px;
+    }
+    #carouselExampleIndicators p {
+        font-size: 20px;
+        background: white;
+        color: #303030;
+        width: 250px;
+        height: fit-content;
+        margin: 0 0 0 110px;
+        text-align: end;
+        padding-right: 10px;
+    }
+    #carouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    #carouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    .whyChooseUsRow p {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+    .whyChooseUsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourSkillsRow p {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .ourSkillsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .accordion {
+        margin: 20px 0 0 0;
+    }
+    .accordion button {
+        font-size: 16px;
+        font-weight: normal;
+        color: black;
+    }
+    .accordion button:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .progress {
+        height: 64px;
+    }
+    #progress1 {
+        margin: 20px 0 0 0;
+    }
+    #progress2 {
+        margin: 5.3px 0 0 0;
+    }
+    .progress-bar {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+    }
+    .ourServicesDiv {
+        margin: 50px 0 0 0;
+    }
+    .ourServicesDiv p {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .ourServicesDiv hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourServicesMainRow {
+        margin: 30px 0 0 0;
+    }
+    .ourServeicesIcons {
+        font-size: 35px;
+    }
+    .ourServicesMainCol {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainCol1 {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainCol2 {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainRow h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .ourServicesRowParagraph {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .ourPartnersParagraph {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+    .ourPartnersDiv hr {
+        border: 2px solid gray;
+        margin: 0 0 0 0;
+    }
+    #thirdCarouselRow {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    #carouselExampleControls3 {
+        height: 200px;
+    }
+    #thirdCarouselItem {
+        height: 200px;
+    }
+    #thirdCarouselRow a {
+        font-size: 16px;
+        font-weight: bold;
+        color: gray;
+        border: 5px solid lightgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #thirdCarouselRow a:hover {
+        color: black;
+        text-decoration: none;
+        transition: 1.0s;
+    }
+    #thirdCarouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 0 0 50px;
+    }
+    #thirdCarouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 50px 0 0;
+    }
+    #thirdCarouselCol3 {
+        margin: 50px 0 0 0;
+    }
+    #thirdCarouselCol4 {
+        margin: 50px 0 0 0;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesColOrg {
+        margin: 50px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 10px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 12px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        width: 30%;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+        width: 70%;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 100px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -20px 0 0 55px;
+    }
+    .breadCrumbCol1 {
+        margin: 30px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: start;
+    }
+    .fa-phone {
+        font-size: 30px;
+        margin: 30px 0 0 0;
+    }
+    .contact1 {
+        font-size: 14px;
+        font-weight: bold;
+        margin: -35px 0 0 35px;
+    }
+    .contact2 {
+        font-size: 12px;
+        color: gray;
+        margin: 0 0 0 35px;
+    }
+    #carouselExampleIndicators {
+        height: 300px;
+        margin: 40px;
+        background-color: lightgray;
+    }
+    #carouselExampleIndicators h5 {
+        font-size: 14px;
+        background: #558000;
+        color: white;
+        width: 180px;
+        height: fit-content;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: start;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin: 165px 0 0 20px;
+    }
+    #carouselExampleIndicators p {
+        font-size: 16px;
+        background: white;
+        color: #303030;
+        width: 180px;
+        height: fit-content;
+        margin: 0 0 0 20px;
+        text-align: start;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #carouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    #carouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: 120px 0 0 0;
+    }
+    .whyChooseUsRow p {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+    .whyChooseUsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourSkillsRow p {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .ourSkillsRow hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .accordion {
+        margin: 20px 0 0 0;
+    }
+    .accordion button {
+        font-size: 16px;
+        font-weight: normal;
+        color: black;
+    }
+    .accordion button:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .progress {
+        height: 64px;
+    }
+    #progress1 {
+        margin: 20px 0 0 0;
+    }
+    #progress2 {
+        margin: 5.3px 0 0 0;
+    }
+    .progress-bar {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+    }
+    .ourServicesDiv {
+        margin: 50px 0 0 0;
+    }
+    .ourServicesDiv p {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .ourServicesDiv hr {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .ourServicesMainRow {
+        margin: 30px 0 0 0;
+    }
+    .ourServeicesIcons {
+        font-size: 35px;
+    }
+    .ourServicesMainCol {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainCol1 {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainCol2 {
+        margin: 20px 0 0 0;
+    }
+    .ourServicesMainRow h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .ourServicesRowParagraph {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .ourPartnersParagraph {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+    .ourPartnersDiv hr {
+        border: 2px solid gray;
+        margin: 0 0 0 0;
+    }
+    #thirdCarouselRow {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    #carouselExampleControls3 {
+        height: 200px;
+    }
+    #thirdCarouselItem {
+        height: 200px;
+    }
+    #thirdCarouselRow a {
+        font-size: 16px;
+        font-weight: bold;
+        color: gray;
+        border: 5px solid lightgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #thirdCarouselRow a:hover {
+        color: black;
+        text-decoration: none;
+        transition: 1.0s;
+    }
+    #thirdCarouselPrevious {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 0 0 50px;
+    }
+    #thirdCarouselNext {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #558000;
+        opacity: 1;
+        margin: -20px 50px 0 0;
+    }
+    #thirdCarouselCol3 {
+        margin: 50px 0 0 0;
+    }
+    #thirdCarouselCol4 {
+        margin: 50px 0 0 0;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 0 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesColOrg {
+        margin: 50px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #carouselExampleIndicators h5 {
+        margin: 100px 0 0 270px;
+    }
+    #carouselExampleIndicators p {
+        margin: 0 0 0 370px;
+    }
+    .whyChooseUsRow p {
+        width: 45%;
+        margin: 0 0 0 130px;
+    }
+    .ourSkillsRow p {
+        width: 40%;
+        margin: 0 0 0 150px;
+    }
+    .ourServicesDiv p {
+        margin: 0 0 0 400px;
+    }
+    .ourPartnersParagraph {
+        margin: 50px 0 0 370px;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 35px 0 0 0;
+    }
+    .buddhaThemesCol {
+        margin: 57px 0 0 0;
+    }
+}

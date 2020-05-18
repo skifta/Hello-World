@@ -1,0 +1,1840 @@
+@media (min-width: 992px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 18px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 20px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+    }
+    nav {
+        height: 103px;
+        border-bottom: 5px solid lightgray;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav ul li {
+        height: 103px;
+        margin: 4px 0 0 0;
+    }
+    nav ul li:hover {
+        background-color: #E8E8E8;
+        border-bottom: 5px solid #558000;
+        transition: 0.5s;
+    }
+    nav ul li a {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 30px 0 0 0;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 47px;
+        margin: 30px 190px 0 0;
+    }
+    .contact1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: -57px 0 0 0;
+    }
+    .contact2 {
+        font-size: 20px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #cardRow {
+        margin: 50px 0 0 0;
+    }
+    #cardRow img {
+        border: 5px solid gray;
+    }
+    #cardRow h5 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #cardParagraph {
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+        font-size: 14px;
+    }
+    .cardIcons {
+        margin: 0 0 0 7px;
+    }
+    #cardParagraph2 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #cardMoney {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cardBTN {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        background-color: #558000;
+        border: 0;
+        margin: 0 0 0 65px;
+    }
+    #firstCard {
+        width: 20.12rem;
+    }
+    #firstCard2 {
+        width: 20.12rem;
+        margin: 20px 0 0 0;
+    }
+    .BTNFilter {
+        font-size: 18px;
+        font-weight: bold;
+        color: #558000;
+        text-transform: uppercase;
+    }
+    .BTNFilter:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1s;
+    }
+    .fa-filter {
+        margin: 0 0 0 150px;
+    }
+    .searchParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+        padding-bottom: 5px;
+    }
+    .fa-arrow-alt-circle-right {
+        color: #558000;
+    }
+    .searchInput {
+        background-color: #E8E8E8;
+        border: 0;
+        width: 260px;
+        height: 68px;
+    }
+    #searchBTN {
+        width: 75px;
+        height: 68px;
+        border: 0;
+        border-radius: 0;
+        background-color: #558000;
+        margin: -5px 0 0 0;
+    }
+    .fa-search {
+        font-size: 30px;
+    }
+    #formControlRange {
+        width: 100%;
+        background: #558000;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        height: 15px;
+        margin: 10px 0 0 0;
+    }
+    #formControlRange::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 30px;
+        height: 30px;
+        background: white;
+        cursor: pointer;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    .sliderPrice {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 20px 0 0 0;
+    }
+    .btnPriceFliter {
+        font-size: 14px;
+        font-weight: bold;
+        background: #558000;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        height: 30px;
+        width: 70px;
+        margin: 0 0 0 59px;
+    }
+    .filterByTypeCard {
+        border: 0;
+    }
+    .filterByTypeBTN {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        padding-left: 0;
+        margin: 0 10px 0 0;
+        padding-bottom: 10px;
+    }
+    .filterByTypeBTN:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .filterByTypeSpan {
+        margin: 0 0 0 150px;
+    }
+    .filterByTypeSpan2 {
+        margin: 0 0 0 208px;
+    }
+    .filterByTypeSpan3 {
+        margin: 0 0 0 133px;
+    }
+    .filterByTypeSpan4 {
+        margin: 0 0 0 182px;
+    }
+    .filterByTypeSpan5 {
+        margin: 0 0 0 202px;
+    }
+    .filterByTypeSpan6 {
+        margin: 0 0 0 78px;
+    }
+    .FBTRPParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+        padding-bottom: 5px;
+    }
+    #FBTRPCard {
+        height: 82px;
+        border: 0;
+    }
+    #FBTRPCard h5 {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0;
+        margin: -20px 0 0 0;
+    }
+    #FBTRPCard p {
+        font-size: 14px;
+        font-weight: bold;
+        color: #558000;
+        margin: 5px 0 0 0;
+    }
+    .box {
+        color: yellow;
+        margin: 10px 0 0 0;
+    }
+    .BTNRow {
+        margin: 30px 0 0 15px;
+    }
+    .lastBTN1 {
+        font-weight: bold;
+        width: 30px;
+    }
+    .lastBTN1:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN2 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN2:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN3 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN3:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTNNext {
+        font-weight: bold;
+        width: 75px;
+        margin: 0 0 0 30px;
+    }
+    .lastBTNNext:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 50px 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 42px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 16px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 18px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 47px;
+        margin: 30px 190px 0 0;
+    }
+    .contact1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: -57px 0 0 0;
+    }
+    .contact2 {
+        font-size: 20px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #cardRow {
+        margin: 50px 0 0 0;
+    }
+    #cardRow img {
+        border: 5px solid gray;
+        height: 150px;
+    }
+    #cardRow h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #cardParagraph {
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+        font-size: 12px;
+    }
+    .cardIcons {
+        margin: 0 0 0 7px;
+        font-size: 10px;
+    }
+    #cardParagraph2 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    #cardMoney {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .cardBTN {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        background-color: #558000;
+        border: 0;
+        margin: 0 0 0 25px;
+    }
+    #firstCard {
+        height: 360px;
+        width: 14rem;
+    }
+    #firstCard2 {
+        margin: 20px 0 0 0;
+        height: 360px;
+        width: 14rem;
+    }
+    .BTNFilter {
+        font-size: 18px;
+        font-weight: bold;
+        color: #558000;
+        text-transform: uppercase;
+    }
+    .BTNFilter:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1s;
+    }
+    .fa-filter {
+        margin: 0 0 0 20px;
+    }
+    .searchParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+    }
+    .fa-arrow-alt-circle-right {
+        color: #558000;
+    }
+    .searchInput {
+        background-color: #E8E8E8;
+        border: 0;
+        width: 120px;
+        height: 68px;
+    }
+    #searchBTN {
+        width: 75px;
+        height: 68px;
+        border: 0;
+        border-radius: 0;
+        background-color: #558000;
+        margin: -5px 0 0 0;
+    }
+    .fa-search {
+        font-size: 30px;
+    }
+    #formControlRange {
+        width: 100%;
+        background: #558000;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        height: 15px;
+        margin: 10px 0 0 0;
+    }
+    #formControlRange::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 30px;
+        height: 30px;
+        background: white;
+        cursor: pointer;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    .sliderPrice {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 20px 0 0 0;
+    }
+    .btnPriceFliter {
+        font-size: 14px;
+        font-weight: bold;
+        background: #558000;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        height: 30px;
+        width: 70px;
+    }
+    .filterByTypeCard {
+        border: 0;
+    }
+    .filterByTypeBTN {
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        padding-left: 0;
+        margin: 0 10px 0 0;
+        padding-bottom: 0;
+    }
+    .filterByTypeBTN:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .filterByTypeSpan {
+        margin: 0 0 0 68px;
+    }
+    .filterByTypeSpan2 {
+        margin: 0 0 0 123px;
+    }
+    .filterByTypeSpan3 {
+        margin: 0 0 0 52px;
+    }
+    .filterByTypeSpan4 {
+        margin: 0 0 0 99px;
+    }
+    .filterByTypeSpan5 {
+        margin: 0 0 0 120px;
+    }
+    .filterByTypeSpan6 {
+        margin: 0 0 0 4px;
+    }
+    .FBTRPParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+        padding-bottom: 5px;
+    }
+    #FBTRPCard {
+        height: 50px;
+        border: 0;
+    }
+    #FBTRPCard img {
+        height: 50px;
+    }
+    #FBTRPCard h5 {
+        font-size: 10px;
+        font-weight: bold;
+        padding: 0;
+        margin: -20px 0 0 0;
+    }
+    #FBTRPCard p {
+        font-size: 11px;
+        font-weight: bold;
+        color: #558000;
+    }
+    .box {
+        color: yellow;
+        font-size: 10px;
+        margin: -20px 0 0 0;
+    }
+    .BTNRow {
+        margin: 30px 0 0 15px;
+    }
+    .lastBTN1 {
+        font-weight: bold;
+        width: 30px;
+    }
+    .lastBTN1:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN2 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN2:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN3 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN3:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTNNext {
+        font-weight: bold;
+        width: 75px;
+        margin: 0 0 0 30px;
+    }
+    .lastBTNNext:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 50px 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 42px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .header {
+        background-color: #404040;
+        height: 40px;
+    }
+    .firstContactnumberEmail {
+        font-size: 12px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 16px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        margin: 8px 0 0 0;
+        width: 50%;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+        width: 50%;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 121px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -30px 0 0 70px;
+    }
+    .breadCrumbCol1 {
+        margin: 40px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: end;
+    }
+    .fa-phone {
+        font-size: 40px;
+        margin: 30px 170px 0 0;
+    }
+    .contact1 {
+        font-size: 22px;
+        font-weight: bold;
+        margin: -50px 0 0 0;
+    }
+    .contact2 {
+        font-size: 18px;
+        color: gray;
+        margin: -10px 0 0 0;
+    }
+    #cardRow {
+        margin: 50px 0 0 0;
+    }
+    #cardRow img {
+        border: 5px solid gray;
+        height: 150px;
+    }
+    #cardRow h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #cardParagraph {
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+        font-size: 12px;
+    }
+    .cardIcons {
+        margin: 0 0 0 7px;
+    }
+    #cardParagraph2 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    #cardMoney {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .cardBTN {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        background-color: #558000;
+        border: 0;
+        margin: 0 0 0 20px;
+    }
+    #firstCard {
+        height: 380px;
+    }
+    #firstCard2 {
+        margin: 20px 0 0 0;
+        height: 380px;
+        margin: 20px 0 0 0;
+    }
+    .BTNFilter {
+        font-size: 18px;
+        font-weight: bold;
+        color: #558000;
+        text-transform: uppercase;
+    }
+    .BTNFilter:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1s;
+    }
+    .fa-filter {
+        margin: 0 0 0 300px;
+    }
+    .accordionCol {
+        margin: 50px 0 0 0;
+    }
+    .searchParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+    }
+    .fa-arrow-alt-circle-right {
+        color: #558000;
+    }
+    .searchInput {
+        background-color: #E8E8E8;
+        border: 0;
+        width: 400px;
+        height: 68px;
+    }
+    #searchBTN {
+        width: 75px;
+        height: 68px;
+        border: 0;
+        border-radius: 0;
+        background-color: #558000;
+        margin: -5px 0 0 0;
+    }
+    .fa-search {
+        font-size: 30px;
+    }
+    #formControlRange {
+        width: 100%;
+        background: #558000;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        height: 15px;
+        margin: 10px 0 0 0;
+    }
+    #formControlRange::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 30px;
+        height: 30px;
+        background: white;
+        cursor: pointer;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    .sliderPrice {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 20px 0 0 0;
+    }
+    .btnPriceFliter {
+        font-size: 14px;
+        font-weight: bold;
+        background: #558000;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        height: 30px;
+        width: 70px;
+        margin: 0 0 0 198px;
+    }
+    .filterByTypeCard {
+        border: 0;
+    }
+    .filterByTypeBTN {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        padding-left: 0;
+        margin: 0 10px 0 0;
+        padding-bottom: 0;
+    }
+    .filterByTypeBTN:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .filterByTypeSpan {
+        margin: 0 0 0 150px;
+    }
+    .filterByTypeSpan2 {
+        margin: 0 0 0 208px;
+    }
+    .filterByTypeSpan3 {
+        margin: 0 0 0 133px;
+    }
+    .filterByTypeSpan4 {
+        margin: 0 0 0 182px;
+    }
+    .filterByTypeSpan5 {
+        margin: 0 0 0 202px;
+    }
+    .filterByTypeSpan6 {
+        margin: 0 0 0 78px;
+    }
+    .FBTRPParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+        padding-bottom: 5px;
+    }
+    #FBTRPCard img {
+        height: 80px;
+    }
+    #FBTRPCard {
+        height: 82px;
+        border: 0;
+        margin: 20px 0 0 0;
+    }
+    #FBTRPCard h5 {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0;
+        margin: -20px 0 0 0;
+    }
+    #FBTRPCard p {
+        font-size: 14px;
+        font-weight: bold;
+        color: #558000;
+        margin: 5px 0 0 0;
+    }
+    .box {
+        color: yellow;
+        margin: 10px 0 0 0;
+    }
+    .BTNRow {
+        margin: 30px 0 0 15px;
+    }
+    .lastBTN1 {
+        font-weight: bold;
+        width: 30px;
+    }
+    .lastBTN1:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN2 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN2:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN3 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN3:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTNNext {
+        font-weight: bold;
+        width: 75px;
+        margin: 0 0 0 30px;
+    }
+    .lastBTNNext:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 50px 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesColOrg {
+        margin: 50px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        background-color: #404040;
+        height: 48px;
+    }
+    .firstContactnumberEmail {
+        font-size: 10px;
+        font-weight: normal;
+        color: #E8E8E8;
+    }
+    #iconsLink1 {
+        font-size: 12px;
+        color: gray;
+    }
+    #iconsLink1:hover {
+        color: palevioletred;
+        transition: 1.0s;
+    }
+    .contactAndIconsRow1 {
+        width: 30%;
+    }
+    .contactAndIconsRow2 {
+        text-align: end;
+        margin: 8px 0 0 0;
+        width: 70%;
+    }
+    #navbarBrand {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0 10px 0 0;
+    }
+    .navbarBrandSpan {
+        font: 24pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #558000;
+    }
+    nav {
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumb {
+        height: 100px;
+        background: #E8E8E8;
+        border-bottom: 5px solid lightgray;
+    }
+    .breadCrumbCol1 a {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #558000;
+        font-weight: bold;
+    }
+    .breadCrumbCol1 a:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1.0s;
+    }
+    .breadCrumbCol1 p {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: -20px 0 0 55px;
+    }
+    .breadCrumbCol1 {
+        margin: 30px 0 0 0;
+    }
+    .breadCrumbCol2 {
+        text-align: start;
+    }
+    .fa-phone {
+        font-size: 30px;
+        margin: 30px 0 0 0;
+    }
+    .contact1 {
+        font-size: 14px;
+        font-weight: bold;
+        margin: -35px 0 0 35px;
+    }
+    .contact2 {
+        font-size: 12px;
+        color: gray;
+        margin: 0 0 0 35px;
+    }
+    #cardRow {
+        margin: 50px 0 0 0;
+    }
+    #cardRow img {
+        border: 5px solid gray;
+        height: 150px;
+    }
+    #cardRow h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #cardParagraph {
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+        font-size: 12px;
+    }
+    .cardIcons {
+        margin: 0 0 0 7px;
+    }
+    #cardParagraph2 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    #cardMoney {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .cardBTN {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        background-color: #558000;
+        border: 0;
+        margin: 0 0 0 50px;
+    }
+    #firstCard {
+        height: 330px;
+        width: 16rem;
+        margin: 20px 0 0 0;
+    }
+    #firstCard2 {
+        margin: 20px 0 0 0;
+        height: 330px;
+        margin: 20px 0 0 0;
+        width: 16rem;
+    }
+    #cardContainer {
+        width: 330px;
+    }
+    .BTNFilter {
+        font-size: 18px;
+        font-weight: bold;
+        color: #558000;
+        text-transform: uppercase;
+    }
+    .BTNFilter:hover {
+        text-decoration: none;
+        color: gray;
+        transition: 1s;
+    }
+    .fa-filter {
+        margin: 0 0 0 70px;
+    }
+    .accordionCol {
+        margin: 50px 0 0 0;
+    }
+    #accordionCard {
+        width: 16rem;
+    }
+    .searchParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+    }
+    .fa-arrow-alt-circle-right {
+        color: #558000;
+    }
+    .searchInput {
+        background-color: #E8E8E8;
+        border: 0;
+        width: 180px;
+        height: 68px;
+    }
+    #searchBTN {
+        width: 75px;
+        height: 68px;
+        border: 0;
+        border-radius: 0;
+        background-color: #558000;
+        margin: -5px 0 0 0;
+    }
+    .fa-search {
+        font-size: 30px;
+    }
+    #formControlRange {
+        width: 100%;
+        background: #558000;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        height: 15px;
+        margin: 10px 0 0 0;
+    }
+    #formControlRange::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 30px;
+        height: 30px;
+        background: white;
+        cursor: pointer;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+    }
+    .sliderPrice {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 20px 0 0 0;
+    }
+    .btnPriceFliter {
+        font-size: 14px;
+        font-weight: bold;
+        background: #558000;
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        height: 30px;
+        width: 70px;
+        margin: 0 0 0 10px;
+    }
+    .filterByTypeCard {
+        border: 0;
+    }
+    .filterByTypeBTN {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        padding-left: 0;
+        margin: 0 10px 0 0;
+        padding-bottom: 0;
+    }
+    .filterByTypeBTN:hover {
+        color: #558000;
+        text-decoration: none;
+    }
+    .filterByTypeSpan {
+        margin: 0 0 0 120px;
+    }
+    .filterByTypeSpan2 {
+        margin: 0 0 0 178px;
+    }
+    .filterByTypeSpan3 {
+        margin: 0 0 0 103px;
+    }
+    .filterByTypeSpan4 {
+        margin: 0 0 0 152px;
+    }
+    .filterByTypeSpan5 {
+        margin: 0 0 0 172px;
+    }
+    .filterByTypeSpan6 {
+        margin: 0 0 0 48px;
+    }
+    .FBTRPParagraph {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 35px 0 0 0;
+        padding-bottom: 5px;
+    }
+    #FBTRPCard img {
+        height: 80px;
+    }
+    #FBTRPCard {
+        height: 82px;
+        border: 0;
+        margin: 20px 0 0 0;
+    }
+    #FBTRPCard h5 {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0;
+        margin: -20px 0 0 0;
+    }
+    #FBTRPCard p {
+        font-size: 14px;
+        font-weight: bold;
+        color: #558000;
+        margin: 5px 0 0 0;
+    }
+    .box {
+        color: yellow;
+        margin: 10px 0 0 0;
+    }
+    .BTNRow {
+        margin: 30px 0 0 15px;
+    }
+    .lastBTN1 {
+        font-weight: bold;
+        width: 30px;
+    }
+    .lastBTN1:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN2 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN2:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTN3 {
+        font-weight: bold;
+        width: 30px;
+        margin: 0 0 0 10px;
+    }
+    .lastBTN3:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    .lastBTNNext {
+        font-weight: bold;
+        width: 75px;
+        margin: 0 0 0 30px;
+    }
+    .lastBTNNext:hover {
+        background-color: #558000;
+        color: white;
+        transition: 1s;
+        border: 1px solid #558000;
+    }
+    #BTNRowContainer {
+        width: 330px;
+    }
+    .footerHR {
+        border: 3px solid gray;
+        margin: 50px 0 0 0;
+    }
+    .footer {
+        background-color: #404040;
+    }
+    #footerRow p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #footerRow hr {
+        border: 1px dashed white;
+    }
+    #footerRow a {
+        color: lightgray;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #footerRow a:hover {
+        text-decoration: none;
+        color: #558000;
+    }
+    #featuredPropertiesCard {
+        border: 0;
+        background-color: #404040;
+        margin: 25px 0 0 0;
+    }
+    #featuredPropertiesCard2 {
+        border: 0;
+        background-color: #404040;
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesCard3 {
+        border: 0;
+        background-color: #404040;
+        margin: 45px 0 0 0;
+    }
+    #featuredPropertiesGutters {
+        width: 250px;
+        height: 60px;
+    }
+    #featuredPropertiesIMG {
+        border: 3px solid lightgray;
+    }
+    #featuredPropertiesCard4 {
+        width: 60px;
+        height: 60px;
+    }
+    #featuredPropertiesCard8 {
+        width: 190px;
+        height: 60px;
+    }
+    #featuredPropertiesCardBody {
+        height: 60px;
+    }
+    #featuredPropertiesCard8 h5 {
+        font-size: 12px;
+        font-weight: bold;
+        color: lightgray;
+        margin: -20px 0 0 0;
+    }
+    #featuredPropertiesCard8 p {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+    }
+    #twwiterIcon {
+        color: lightgray;
+    }
+    .budhaThemes {
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+    .featuresPropertiesH5 {
+        font-size: 14px;
+        font-weight: normal;
+        color: lightgray;
+    }
+    .buddhaThemesCol {
+        margin: 80px 0 0 0;
+    }
+    .contactInfoH41,
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44 {
+        color: lightgray;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 40px 0 0 0;
+    }
+    #featuredPropertiesColOrg {
+        margin: 50px 0 0 0;
+    }
+    #featuredPropertiesCol {
+        margin: 50px 0 0 0;
+    }
+    .footer2 {
+        background-color: black;
+    }
+    .footer2 p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 0 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #firstCard {
+        width: 18rem;
+    }
+    #firstCard2 {
+        width: 18rem;
+    }
+    .cardBTN {
+        margin: 0 0 0 20px;
+    }
+    .fa-filter {
+        margin: 0 0 0 100px;
+    }
+    .searchInput {
+        width: 200px;
+    }
+    .btnPriceFliter {
+        margin: 0 0 0 9px;
+        width: 60px;
+    }
+    .filterByTypeSpan {
+        margin: 0 0 0 120px;
+    }
+    .filterByTypeSpan2 {
+        margin: 0 0 0 178px;
+    }
+    .filterByTypeSpan3 {
+        margin: 0 0 0 103px;
+    }
+    .filterByTypeSpan4 {
+        margin: 0 0 0 152px;
+    }
+    .filterByTypeSpan5 {
+        margin: 0 0 0 172px;
+    }
+    .filterByTypeSpan6 {
+        margin: 0 0 0 48px;
+    }
+    .FBTRPParagraph {
+        font-size: 15px;
+        margin: 35px 0 0 0;
+    }
+    .box {
+        margin: 3px 0 0 0;
+    }
+    .contactInfoH42,
+    .contactInfoH43,
+    .contactInfoH44,
+    .contactInfoH45 {
+        margin: 35px 0 0 0;
+    }
+    .buddhaThemesCol {
+        margin: 57px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 575px) {
+    #firstCard {
+        height: 330px;
+        width: 20rem;
+        margin: 20px 0 0 0
+    }
+    #firstCard2 {
+        margin: 20px 0 0 0;
+        height: 330px;
+        margin: 20px 0 0 0;
+        width: 20rem;
+    }
+    #cardContainer {
+        width: 400px;
+    }
+    .cardBTN {
+        margin: 0 0 0 120px;
+    }
+    .fa-filter {
+        margin: 0 0 0 100px;
+    }
+    #accordionCard {
+        width: 20rem;
+    }
+    .searchInput {
+        width: 240px;
+    }
+    #formControlRange {
+        width: 94%;
+    }
+    .btnPriceFliter {
+        margin: 0 0 0 40px;
+    }
+    #BTNRowContainer {
+        width: 400px;
+    }
+}

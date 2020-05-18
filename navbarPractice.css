@@ -1,0 +1,992 @@
+.header {
+    background-color: #404040;
+    height: 48px;
+}
+
+.firstContactnumberEmail {
+    font-size: 18px;
+    font-weight: normal;
+    color: #E8E8E8;
+}
+
+.contactAndIconsRow {
+    margin: 8px 0 0 0;
+}
+
+#iconsLink1 {
+    font-size: 20px;
+    color: gray;
+}
+
+#iconsLink1:hover {
+    color: palevioletred;
+    transition: 1.0s;
+}
+
+.contactAndIconsRow {
+    text-align: end;
+}
+
+nav {
+    height: 103px;
+    border-bottom: 5px solid lightgray;
+}
+
+#navbarBrand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.navbarBrandSpan {
+    font: 24pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #558000;
+}
+
+nav ul li {
+    height: 103px;
+    margin: 4px 0 0 0;
+}
+
+nav ul li:hover {
+    background-color: #E8E8E8;
+    border-bottom: 5px solid #558000;
+    transition: 0.5s;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+#carouselExampleControls {
+    height: 500px;
+    background-color: gray;
+}
+
+#firstCarouselPrevious {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: black;
+    margin: 250px 0 0 10px;
+}
+
+#firstCarouselNext {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: black;
+    margin: 250px 10px 0 0;
+}
+
+#firstCarouselCard {
+    width: 400px;
+    height: 170px;
+    margin: 170px 0 0 50px;
+}
+
+#firstCarouselCardBody h5 {
+    font-size: 20px;
+}
+
+#firstCarouselCardBody p {
+    font-size: 15px;
+}
+
+.inMiddleHrDiv hr {
+    border: 0;
+    height: 1.1vh;
+    width: 80vw;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+}
+
+.inMiddleHrDiv h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.inMiddleHrDiv p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: lightgray;
+    text-align: center;
+}
+
+.inMiddleHrButton {
+    background-color: #558000;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    font-weight: normal;
+}
+
+#largeIconsContainer {
+    width: 105vw;
+}
+
+#largeIconsRow {
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+.bigIconsLinksCard {
+    font-size: 60px;
+    color: gray;
+    border: 10px solid lightgray;
+    border-radius: 50%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bigIconsLinksCard:hover {
+    background-color: #9ACD32;
+    color: white;
+    transition: 1.0s;
+}
+
+#underLinkCardH5 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+#underLinkCardH5:hover {
+    color: #9ACD32;
+    transition: 1.0s;
+}
+
+#underLinkCardP1 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.latestPropertiesDiv {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.latestPropertiesDiv p {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#latestPropertiesHR {
+    height: 0.78vh;
+    width: 20.61vw;
+    background-color: #558000;
+    margin: 0 0 0 39vw;
+}
+
+.latestPropertiesDiv hr {
+    margin: 0 0 0 11.77vw;
+    border: 0;
+    height: 0.78vh;
+    width: 75.9vw;
+    background-color: lightgray;
+}
+
+#carouselExampleControls2 {
+    height: 502px;
+}
+
+#latestPropertiesSecondCarouselRow {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#latestPropertiesSecondCarouselRow img {
+    border: 7px solid gray;
+    border-radius: 2%;
+    width: 25vw;
+}
+
+#latestPropertiesSecondCarouselRow h5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+    margin: 20px 0 0 20px;
+}
+
+#latesetPropertiesFirstParagraph {
+    text-align: start;
+    margin: 0 0 0 20px;
+    font-size: 1.15vw;
+}
+
+.latestPropertiessecondParagraphIcon {
+    margin: 0 0 0 22px;
+}
+
+.latestPropertiesHR1 {
+    border: 0.07vw dashed black;
+    width: 85%;
+    margin: 20px 0 0 20px;
+}
+
+.latestPropertiesHR2 {
+    border: 0.07vw dashed black;
+    width: 85%;
+    margin: 0 0 0 20px;
+}
+
+#latesetPropertiesSecondParagraph {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: start;
+    margin: 20px 0 0 20px;
+    width: 85%;
+}
+
+.latestPropertiesMoney {
+    font-size: 1.33vw;
+    font-weight: bold;
+    color: gray;
+    text-align: start;
+    margin: 30px 0 0 20px;
+}
+
+.latestPropertiesBTN {
+    font-size: 1.03vw;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: #558000;
+    border: 0;
+    margin: 0 0 0 80px;
+}
+
+#latestPropertiesPrevious {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    background-color: #558000;
+    opacity: 1;
+    margin: -13px 0 0 0;
+}
+
+#latestPropertiesNext {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    background-color: #558000;
+    opacity: 1;
+    margin: -13px 0 0 0;
+}
+
+.fromTheBlogDiv {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.fromTheBlogDiv p {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#fromTheBlogHR {
+    height: 0.78vh;
+    width: 20.61vw;
+    background-color: #558000;
+    margin: 0 0 0 39vw;
+}
+
+.fromTheBlogDiv hr {
+    margin: 0 0 0 9.5vw;
+    border: 0;
+    height: 0.78vh;
+    width: 80vw;
+    background-color: lightgray;
+}
+
+#fromTheBlogContainer {
+    width: 84.19vw;
+}
+
+#fromTheBlogRow {
+    margin: 20px 0 0 0;
+    width: 84.19vw;
+}
+
+#fromTheBlogCard {
+    border: 0;
+}
+
+#fromTheBlogIMG {
+    border: 7px solid gray;
+}
+
+#fromTheBlogCardBody h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fa-tags {
+    color: gray;
+}
+
+.fromTheBlogLink {
+    color: #558000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#fromTheBlogParagraph {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.fromTheBlogLink2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #558000;
+}
+
+#fromTheBlogCardBody {
+    margin: -10px 0 0 0;
+    width: 50vh;
+}
+
+@media screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [id*="firstRow"] {
+        font-size: 14px;
+        width: 50%;
+    }
+    #iconsLink1 {
+        font-size: 12pt;
+    }
+    .firstContactnumberEmail {
+        font-size: 10px;
+        font-weight: normal;
+        color: #E8E8E8;
+        width: 50%;
+    }
+    nav {
+        height: 56px;
+        border-bottom: 5px solid lightgray;
+    }
+    nav ul li {
+        height: 40px;
+    }
+    nav ul li:hover {
+        border: 0;
+        background-color: white;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    nav li {
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border-left: 5px solid;
+        position: relative;
+        z-index: 2;
+        text-decoration: none;
+        color: #444;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    nav li a:hover {
+        border-bottom: 0px;
+        color: #fff;
+    }
+    nav li:first-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(2) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(3) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(4) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:last-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li a:after {
+        content: "";
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0px;
+        position: absolute;
+        transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+        z-index: -1;
+    }
+    nav li a:hover:after {
+        width: 100%;
+    }
+    nav li:first-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(2) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(3) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(4) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:last-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    #carouselExampleControls {
+        height: 300px;
+        background-color: gray;
+    }
+    #firstCarouselPrevious {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #558000;
+        margin: 287px 0 0 150px;
+    }
+    #firstCarouselNext {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #558000;
+        margin: 287px 150px 0 0;
+    }
+    #firstCarouselCard {
+        width: 300px;
+        height: 170px;
+        margin: 70px 0 0 20px;
+    }
+    #firstCarouselCardBody h5 {
+        font-size: 20px;
+    }
+    #firstCarouselCardBody p {
+        font-size: 15px;
+    }
+    .inMiddleHrDiv hr {
+        border: 0;
+        height: 1.1vh;
+        width: 73.8vw;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    }
+    .inMiddleHrDiv h4 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .inMiddleHrDiv p {
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: lightgray;
+        text-align: center;
+    }
+    .inMiddleHrButton {
+        background-color: #558000;
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        border: 0;
+        font-weight: normal;
+    }
+    #largeIconsContainer {
+        width: 50vw;
+    }
+    #largeIconsCol2 {
+        margin: 40px 0 0 0;
+    }
+    #largeIconsCol3 {
+        margin: 40px 0 0 0;
+    }
+    #largeIconsCol4 {
+        margin: 40px 0 0 0;
+    }
+    .latestPropertiesDiv p {
+        font-size: 20px;
+    }
+    #latestPropertiesContainer {
+        width: 300px;
+    }
+    #latestPropertiesSecondCarouselRow img {
+        width: 250px;
+    }
+    #latestPropertiesSecondCarouselRow h5 {
+        margin: 20px 0 0 0;
+    }
+    #latesetPropertiesFirstParagraph {
+        width: 100%;
+        margin: 0 0 0 0;
+        font-size: 12px;
+    }
+    #latesetPropertiesSecondParagraph {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    .latestPropertiesMoney {
+        margin: 30px 0 0 0;
+        font-size: 16px;
+    }
+    .latestPropertiesBTN {
+        margin: 0 0 0 45px;
+        font-size: 14px;
+    }
+    .latestPropertiesHR1 {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .latestPropertiesHR2 {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    #latestPropertiesCol2 {
+        margin: 20px 0 0 0;
+    }
+    .fromTheBlogDiv {
+        margin: 950px 0 0 0;
+    }
+    #fromTheBlogIMG {
+        width: 43.35vw;
+    }
+    #fromTheBlogRow {
+        width: 52.77vw;
+    }
+    #fromTheBlogCard {
+        margin: 0 0 0 9.19vw;
+    }
+    #fromTheBlogContainer {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .firstContactnumberEmail {
+        font-size: 14px;
+        font-weight: normal;
+        color: #E8E8E8;
+        width: 50%;
+    }
+    nav {
+        height: 56px;
+        border-bottom: 5px solid lightgray;
+    }
+    nav ul li {
+        height: 40px;
+    }
+    nav ul li:hover {
+        border: 0;
+        background-color: white;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    nav li {
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border-left: 5px solid;
+        position: relative;
+        z-index: 2;
+        text-decoration: none;
+        color: #444;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    nav li a:hover {
+        border-bottom: 0px;
+        color: #fff;
+    }
+    nav li:first-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(2) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(3) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(4) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:last-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li a:after {
+        content: "";
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0px;
+        position: absolute;
+        transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+        z-index: -1;
+    }
+    nav li a:hover:after {
+        width: 100%;
+    }
+    nav li:first-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(2) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(3) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(4) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:last-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    #carouselExampleControls {
+        height: 400px;
+        background-color: gray;
+    }
+    #firstCarouselPrevious {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: black;
+        margin: 180px 0 0 10px;
+    }
+    #firstCarouselNext {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: black;
+        margin: 180px 10px 0 0;
+    }
+    #firstCarouselCard {
+        width: 350px;
+        height: 170px;
+        margin: 100px 0 0 50px;
+    }
+    #firstCarouselCardBody h5 {
+        font-size: 20px;
+    }
+    #firstCarouselCardBody p {
+        font-size: 15px;
+    }
+    .inMiddleHrDiv hr {
+        border: 0;
+        height: 1.1vh;
+        width: 73.8vw;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    }
+    .inMiddleHrDiv h4 {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .inMiddleHrDiv p {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: lightgray;
+        text-align: center;
+    }
+    .inMiddleHrButton {
+        background-color: #558000;
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        border: 0;
+        font-weight: normal;
+    }
+    #largeIconsCol3 {
+        margin: 40px 0 0 0;
+    }
+    #largeIconsCol4 {
+        margin: 40px 0 0 0;
+    }
+    .latestPropertiesDiv p {
+        font-size: 22px;
+    }
+    #latestPropertiesSecondCarouselRow h5 {
+        margin: 20px 0 0 0;
+    }
+    #latesetPropertiesFirstParagraph {
+        font-size: 10px;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    #latesetPropertiesSecondParagraph {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    .latestPropertiesMoney {
+        margin: 30px 0 0 0;
+    }
+    .latestPropertiesBTN {
+        margin: 0 0 0 45px;
+    }
+    #latestPropertiesPrevious {
+        margin: -13px 0 0 40px;
+    }
+    #latestPropertiesNext {
+        margin: -13px 30px 0 0;
+    }
+    .latestPropertiesHR1 {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .latestPropertiesHR2 {
+        width: 100%;
+        margin: 0;
+    }
+    #latestPropertiesSecondCarouselRow img {
+        width: 216px;
+    }
+    #fromTheBlogContainer {
+        width: 720px;
+    }
+    #fromTheBlogRow {
+        width: 70vw;
+        margin: 20px 0 0 100px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 407px) {
+    .firstContactnumberEmail {
+        font-size: 10px;
+        font-weight: normal;
+        color: #E8E8E8;
+        width: 50%;
+    }
+    #iconsLink1 {
+        font-size: 3vw;
+    }
+    nav {
+        height: 56px;
+        border-bottom: 5px solid lightgray;
+    }
+    nav ul li {
+        height: 40px;
+    }
+    nav ul li:hover {
+        border: 0;
+        background-color: white;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    nav li {
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border-left: 5px solid;
+        position: relative;
+        z-index: 2;
+        text-decoration: none;
+        color: #444;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    nav li a:hover {
+        border-bottom: 0px;
+        color: #fff;
+    }
+    nav li:first-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(2) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(3) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:nth-child(4) a {
+        border-left: 5px solid lightgray;
+    }
+    nav li:last-child a {
+        border-left: 5px solid lightgray;
+    }
+    nav li a:after {
+        content: "";
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0px;
+        position: absolute;
+        transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+        z-index: -1;
+    }
+    nav li a:hover:after {
+        width: 100%;
+    }
+    nav li:first-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(2) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(3) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:nth-child(4) a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    nav li:last-child a:after {
+        background: #558000;
+        opacity: 0.7;
+    }
+    #carouselExampleControls {
+        height: 200px;
+        background-color: gray;
+    }
+    #firstCarouselPrevious {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #558000;
+        margin: 190px 0 0 120px;
+    }
+    #firstCarouselNext {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #558000;
+        margin: 190px 120px 0 0;
+    }
+    #firstCarouselCard {
+        width: 200px;
+        height: 150px;
+        margin: 20px 0 0 20px;
+    }
+    #firstCarouselCardBody h5 {
+        font-size: 15px;
+    }
+    #firstCarouselCardBody p {
+        font-size: 10px;
+    }
+    #firstCarouselCardBody a {
+        margin: -10px 0 0 0;
+    }
+    .inMiddleHrDiv hr {
+        border: 0;
+        height: 1.1vh;
+        width: 73.8vw;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #E8E8E8, #f0f0f0);
+    }
+    .inMiddleHrDiv h4 {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .inMiddleHrDiv p {
+        font-size: 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: lightgray;
+        text-align: center;
+    }
+    .inMiddleHrButton {
+        background-color: #558000;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        border: 0;
+        font-weight: normal;
+    }
+    .bigIconsLinksCard {
+        font-size: 30px;
+    }
+    #underLinkCardH5 {
+        font-size: 14px;
+    }
+    #underLinkCardP1 {
+        font-size: 12px;
+    }
+    .latestPropertiesDiv p {
+        font-size: 18px;
+    }
+}

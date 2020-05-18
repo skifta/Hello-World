@@ -4,19 +4,37 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=1.0">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="navbarPractice.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="file:///C:/Users/Skifteri/Desktop/fontawesome-free-5.13.0-web/css/all.css">
+    <title>Homepage</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="header">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-4" id="firstRow">
+                    <span class="firstContactnumberEmail">123234325 name@someemail.com</span>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 contactAndIconsRow" id="firstRow">
+                    <a href="http://www.linkedin.com" class="p-2" id="iconsLink1"><i class="fab fa-linkedin"></i></a>
+                    <a href="http://www.nba.com" class="p-2" id="iconsLink1"><i class="fas fa-basketball-ball"></i></a>
+                    <a href="http://www.twitter.com" class="p-2" id="iconsLink1"><i class="fab fa-twitter"></i></a>
+                    <a href="http://www.google.com" class="p-2" id="iconsLink1"><i class="fab fa-google-plus"></i></a>
+                    <a href="http://www.facebook.com" class="p-2" id="iconsLink1"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" id="navbarBrand" href="#">Real<span class="navbarBrandSpan">estate</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,19 +42,257 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Details</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card" id="firstCarouselCard">
+                    <div class="card-body" id="firstCarouselCardBody">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" id="firstCarouselCard">
+                    <div class="card-body" id="firstCarouselCardBody">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" id="firstCarouselCard">
+                    <div class="card-body" id="firstCarouselCardBody">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" id="firstCarouselPrevious" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" id="firstCarouselNext" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="inMiddleHrDiv">
+        <hr>
+        <h4>Welcome to our <span><button class="inMiddleHrButton">Real Estate</button></span> Theme-clean and modern design for your bussines</h4>
+        <p>Vivamus mattis, magna sed tempor pellentesque, leo nisl</p>
+        <hr>
+    </div>
+
+    <div class="container" id="largeIconsContainer">
+        <div class="row" id="largeIconsRow">
+            <div class="col-lg-3 col-md-6 col-sm-12" id="largeIconsCol1">
+                <a class="bigIconsLinksCard" href="#"><i class="fas fa-house-user"></i></a>
+                <h5 class="card-title" id="underLinkCardH5">Property To Buy</h5>
+                <p class="card-text" id="underLinkCardP1">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" id="largeIconsCol2">
+                <a class="bigIconsLinksCard" href="#"><i class="fas fa-leaf"></i></a>
+                <h5 class="card-title" id="underLinkCardH5">Property To Buy</h5>
+                <p class="card-text" id="underLinkCardP1">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" id="largeIconsCol3">
+                <a class="bigIconsLinksCard" href="#"><i class="fas fa-trophy"></i></a>
+                <h5 class="card-title" id="underLinkCardH5">Property For Rent</h5>
+                <p class="card-text" id="underLinkCardP1">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12" id="largeIconsCol4">
+                <a class="bigIconsLinksCard" href="#"><i class="fas fa-umbrella"></i></a>
+                <h5 class="card-title" id="underLinkCardH5">Property For Lease</h5>
+                <p class="card-text" id="underLinkCardP1">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="latestPropertiesDiv">
+        <p>Latest Properties</p>
+        <hr id="latestPropertiesHR">
+        <hr>
+    </div>
+
+    <div class="container" id="latestPropertiesContainer">
+        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" id="latestPropertiesSecondCarouselRow">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="latestPropertiesSecondCarouselRow">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="latestPropertiesSecondCarouselRow">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="latestPropertiesCol2">
+                            <img src="9.Pictures/Picture9.jpg" width="340" height="220">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <hr class="latestPropertiesHR1">
+                            <p class="card-text" id="latesetPropertiesFirstParagraph"><span><i class="fas fa-bed"></i> Beds: 3</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-shower"></i> Baths: 4</span> <span class="latestPropertiessecondParagraphIcon"><i class="fas fa-car"></i> Garage: 1</span></p>
+                            <hr class="latestPropertiesHR2">
+                            <p class="card-text" id="latesetPropertiesSecondParagraph">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="latestPropertiesMoney">$ 720,000.00 <span><button class="latestPropertiesBTN">View More</button></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" id="latestPropertiesPrevious" href="#carouselExampleControls2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" id="latestPropertiesNext" href="#carouselExampleControls2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="fromTheBlogDiv">
+        <p>From the blog</p>
+        <hr id="fromTheBlogHR">
+        <hr>
+    </div>
+
+    <div class="container" id="fromTheBlogContainer">
+        <div class="row" id="fromTheBlogRow">
+            <div class="col-lg-6 col-md-12 col-sm-12" id="fromTheBlogCol">
+                <div class="card mb-3" id="fromTheBlogCard" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="9.Pictures/Picture9.jpg" id="fromTheBlogIMG" width="260px" height="175" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="card-body" id="fromTheBlogCardBody">
+                                <h5 class="card-title">Nullam dignisim vivera sceler</h5>
+                                <i class="fas fa-tags"></i> <a href="#" class="fromTheBlogLink">teger,</a>
+                                <a href="#" class="fromTheBlogLink">luctus, <a href="#" class="fromTheBlogLink">porttitor,</a> <a href="#" class="fromTheBlogLink">purus</a>
+                                <p class="card-text" id="fromTheBlogParagraph">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="fromTheBlogLink2">Read More >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12" id="fromTheBlogCol">
+                <div class="card mb-3" id="fromTheBlogCard" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="9.Pictures/Picture9.jpg" id="fromTheBlogIMG" width="260px" height="175" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" id="fromTheBlogCardBody">
+                                <h5 class="card-title">Nullam dignisim vivera sceler</h5>
+                                <i class="fas fa-tags"></i> <a href="#" class="fromTheBlogLink">teger,</a>
+                                <a href="#" class="fromTheBlogLink">luctus, <a href="#" class="fromTheBlogLink">porttitor,</a> <a href="#" class="fromTheBlogLink">purus</a>
+                                <p class="card-text" id="fromTheBlogParagraph">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="fromTheBlogLink2">Read More >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
